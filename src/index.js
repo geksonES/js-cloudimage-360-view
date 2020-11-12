@@ -37,6 +37,7 @@ window.CI360 = window.CI360 || {};
 window.CI360.init = init;
 window.CI360.destroy = destroy;
 window.CI360.getActiveIndexByID = getActiveIndexByID;
+window.CI360.isNoViewers = isNoViewers;
 
 if (!window.CI360.notInitOnLoad) {
   init();
